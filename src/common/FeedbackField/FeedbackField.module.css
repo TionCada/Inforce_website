@@ -1,0 +1,14 @@
+.container {
+    width: 1268px;
+    height: 409px;
+    border: 1px solid #16161626;
+    border-radius: 8px;
+    margin-top: 96px;
+    margin-left: 198px;
+}
+
+.optionsBlockContainer {
+    margin-top: 64px;
+    margin-left: 64px;
+    width: 538px;
+}

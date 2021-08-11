@@ -1,0 +1,22 @@
+.date {
+    margin-top: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #DF263E;
+}
+
+.title {
+    margin-top: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text {
+    margin-top: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    width: 398px;
+}
