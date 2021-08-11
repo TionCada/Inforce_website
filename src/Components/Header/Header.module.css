@@ -1,0 +1,17 @@
+.logo {
+    margin-left: 129px;
+    margin-top: 25px;
+}
+
+.wrapper {
+    float: right;
+    margin-left: 32px;
+}
+
+.navigationWrapper {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 128px;
+    margin-top: 37px;
+}

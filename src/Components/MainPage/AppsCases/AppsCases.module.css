@@ -1,0 +1,52 @@
+.container {
+    display: inline-block;
+    width: 679px;
+    vertical-align: top;
+    margin-top: 96px;
+}
+
+.sliderContainer {
+    margin-top: 39px;
+}
+
+.slider {
+    width: 100vw;
+    position: relative;
+    left: -19px;
+}
+
+.card {
+    margin-left: 23.5px;
+}
+
+.cardFirst {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.cardLast {
+    width: 200px;
+    margin-left: 20px;
+}
+
+/*.camouflageBlock2 {*/
+/*    background: linear-gradient(to left, #DF263E, transparent 99%);*/
+/*    width: 180px;*/
+/*    height: 450px;*/
+/*}*/
+
+.optionsBlockContainer {
+    width: 1663px;
+}
+
+.firstPart {
+    display: inline-block;
+    width: 679px;
+}
+
+.secondPart {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 792.5px;
+    margin-top: 40px;
+}

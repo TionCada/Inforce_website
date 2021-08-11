@@ -1,0 +1,46 @@
+.container {
+    width: 257px;
+    height: 103px;
+    background: #FBFBFB;
+    border: 1px solid rgba(22, 22, 22, 0.15);
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-top: 16px;
+    transition: all 0.4s ease;
+}
+
+.container:hover {
+    border: 1px solid transparent;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 20px;
+}
+
+.container:hover .circle {
+    -webkit-animation: rotation 7s ease-out;
+}
+
+.firstBlock {
+    display: inline-block;
+    width: 64px;
+    vertical-align: top;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+
+.secondBlock {
+    display: inline-block;
+    width: 155px;
+    margin-top: 11px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}

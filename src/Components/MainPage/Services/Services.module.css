@@ -1,0 +1,14 @@
+.image {
+    display: inline-block;
+}
+
+.image img {
+    margin-top: 147px;
+}
+
+.optionsBlock {
+    display: inline-block;
+    margin-top: 96px;
+    vertical-align: top;
+    margin-left: 165px;
+}

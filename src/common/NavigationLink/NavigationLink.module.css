@@ -1,0 +1,16 @@
+.link {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.linkWrapper {
+    display: inline-block;
+}

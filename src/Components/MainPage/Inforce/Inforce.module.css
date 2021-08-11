@@ -1,0 +1,116 @@
+.firstColumn {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.secondColumn {
+    display: inline-block;
+    width: 50%;
+}
+
+p {
+    margin: 0;
+}
+
+.textBlock1 {
+    width: 679px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: fit-content;
+    margin-top: 77px;
+}
+
+.textBlock2 {
+    width: 679px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: fit-content;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.textBlock3 {
+    width: 398px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    height: fit-content;
+    margin-top: 29px;
+}
+
+.imageContainer {
+    position: relative;
+    right: 205px;
+    bottom: 0;
+    width: 1160px;
+    height: 785px;
+}
+
+.tabletImage {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 0;
+    animation: floatTablet 15s ease-in-out infinite;
+}
+
+.phoneImage {
+    position: relative;
+    top: 0;
+    left: 396px;
+    z-index: 1;
+    animation: floatPhone 10s ease-in-out infinite;
+}
+
+@keyframes floatPhone {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(15px, -20px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes floatTablet {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(15px, 20px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.buttonContainer {
+    margin-top: 24px;
+    overflow-x: hidden;
+}
+
+.innerTextBlock {
+    display: inline-block;
+}
+
+.reviewBlock {
+    box-shadow: 8px 16px 16px 0px #0000000F;
+    margin-left: 24px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 398px;
+    height: 143px;
+    position: absolute;
+    margin-top: 100px;
+}

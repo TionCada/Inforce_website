@@ -1,0 +1,33 @@
+.container {
+    width: 539px;
+    height: 463px;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+    border-radius: 8px;
+}
+
+.container:hover {
+    border: 1px solid #DF263E;
+    border-radius: 8px;
+}
+
+.container img {
+    width: 537px;
+}
+
+.cardHeader {
+    margin-top: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 16px;
+}
+
+.cardText {
+    width: 507px;
+    margin-top: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 16px;
+}

@@ -1,0 +1,27 @@
+.container {
+    margin-left: 186px;
+    width: fit-content;
+    margin-top: 96px;
+}
+
+.container:first-of-type {
+    margin-left: 20px;
+}
+
+.numberCard {
+    display: inline-block;
+    height: 443px;
+    margin-left: 48px;
+    margin-top: 16px;
+}
+
+.firstNumberCard {
+    display: inline-block;
+    height: 443px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}

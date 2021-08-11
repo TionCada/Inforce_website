@@ -1,0 +1,16 @@
+.consultationButton {
+    border: none;
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    color: #DF263E;
+}
+
+.buttonWrapper {
+    display: inline-block;
+}

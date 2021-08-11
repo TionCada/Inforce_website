@@ -1,0 +1,58 @@
+.container {
+    display: inline-block;
+    width: 679px;
+    vertical-align: top;
+}
+
+.rocketLogo {
+    margin-top: 16px;
+}
+
+.phoneLogo {
+    margin-top: 16px;
+}
+
+.firstTextBlock {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    margin-top: 16px;
+}
+
+.secondTextBlock {
+    margin-top: 8px;
+}
+
+.thirdTextBlock {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    margin-top: 16px;
+}
+
+.fourthTextBlock {
+    margin-top: 8px;
+}
+
+.firstSubBlock {
+    display: inline-block;
+    width: 327.5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.secondSubBlock {
+    display: inline-block;
+    width: 327.5px;
+    margin-left: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.button {
+    margin-top: 32px;
+}
