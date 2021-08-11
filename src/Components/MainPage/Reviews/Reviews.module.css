@@ -1,3 +1,8 @@
 .container {
+    margin-top: 96px;
+    margin-left: -128px;
+}
 
+.optionsBlockContainer {
+    margin-bottom: 24px;
 }

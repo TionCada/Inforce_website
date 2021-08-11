@@ -1,7 +1,21 @@
-.card {
-
+.sliderContainer {
+    width: 100vw;
 }
 
 .cardFirst {
 
+}
+
+.card {
+
+}
+
+.slick-slide.slick-center img {
+    transform: scale(1.1);
+}
+
+.slick-center  {
+    transform:scale(2);
+    margin-right:3%;
+    margin-left:3%;
 }

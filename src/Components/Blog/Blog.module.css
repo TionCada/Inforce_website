@@ -1,0 +1,16 @@
+.post {
+    display: inline-block;
+    margin-left: 24px;
+    margin-top: 96px;
+}
+
+.optionsBlockContainer {
+    display: inline-block;
+    width: 398px;
+    vertical-align: top;
+    margin-top: 96px;
+}
+
+.optionsBlockContainer button {
+    margin-top: 126px;
+}

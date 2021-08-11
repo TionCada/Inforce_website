@@ -14,12 +14,14 @@ function SliderCard(props: Props) {
 
     return (
         <div className={s.container}>
-            <img src={quoteSymbol}/>
-            <p className={s.quote}>{props.quote}</p>
-            <img src={props.personImage}/>
-            <p>{props.personName}</p>
-            <p>{props.appName}</p>
-            <img src={quoteSymbol}/>
+            <img className={s.quoteSymbolFirst} src={quoteSymbol}/>
+            <div className={s.quote}>
+                <p>{props.quote}</p>
+            </div>
+            <img className={s.quoteSymbolSecond} src={quoteSymbol}/>
+            <img className={s.personImage} src={props.personImage}/>
+            <p className={s.personName}>{props.personName}</p>
+            <p className={s.appName}>{props.appName}</p>
         </div>
     )
 }

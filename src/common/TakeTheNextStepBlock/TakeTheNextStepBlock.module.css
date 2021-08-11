@@ -1,0 +1,41 @@
+.container {
+    width: 1269.9px;
+    height: 377px;
+    border: 1px solid #16161626;
+    border-radius: 8px;
+    margin-left: 197px;
+    margin-top: 120px;
+}
+
+.container p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-top: 77px;
+    margin-left: 64px;
+    width: 820px;
+    line-height: 46px;
+
+}
+
+.button {
+    margin-top: 32px;
+    margin-left: 64px;
+    width: 300px;
+}
+
+.button button {
+    width: 257px;
+}
+
+.firstBlock {
+    display: inline-block;
+}
+
+.secondBlock {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 64px;
+    margin-top: 66.72px;
+}
