@@ -12,3 +12,105 @@
     margin-left: 64px;
     width: 538px;
 }
+
+.inputField:focus {
+    outline: none;
+    border:1px solid #DF263E;
+}
+
+.inputFieldLong:focus {
+    outline: none;
+    border:1px solid #DF263E;
+}
+
+::placeholder {
+    color: rgba(22, 22, 22, 0.35);
+}
+
+.input1, .input2 {
+    display: inline-block;
+}
+
+.input2 {
+    margin-left: 25px;
+}
+
+.input3 {
+    margin-top: 16px;
+}
+
+label {
+    display: block;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 16px;
+}
+
+.inputField {
+    width: 257px;
+    height: 53px;
+    border: 1px solid rgba(22, 22, 22, 0.15);
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.inputFieldLong {
+    width: 538px;
+    height: 53px;
+    border: 1px solid rgba(22, 22, 22, 0.15);
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.formContainer {
+    display: inline-block;
+    margin-left: 64px;
+}
+
+.optionsBlockContainer {
+    display: inline-block;
+}
+
+.button {
+    margin-top: 32px;
+    margin-left: 281px;
+}
+
+.button button {
+    width: 257px;
+}
+
+.error1 {
+    position: absolute;
+    margin-left: 95px;
+    color: #DF263E;
+    font-size: 19.5px;
+}
+
+.error2 {
+    position: absolute;
+    margin-left: 172px;
+    color: #DF263E;
+    font-size: 19.5px;
+}
+
+.error3 {
+    position: absolute;
+    margin-left: 59px;
+    color: #DF263E;
+    font-size: 19.5px;
+}

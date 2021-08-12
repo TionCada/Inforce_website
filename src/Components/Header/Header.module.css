@@ -6,6 +6,11 @@
 .wrapper {
     float: right;
     margin-left: 32px;
+    width: fit-content;
+}
+
+.wrapper a {
+    margin-left: 0px;
 }
 
 .navigationWrapper {

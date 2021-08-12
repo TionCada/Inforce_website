@@ -5,7 +5,6 @@ import Slider from "react-slick";
 import SliderCard from "./SliderCard/SliderCard";
 import personImage from '../../assets/images/personImage.svg'
 
-
 function SliderCentered() {
 
     const settings = {

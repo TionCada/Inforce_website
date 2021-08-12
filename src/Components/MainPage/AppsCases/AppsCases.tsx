@@ -11,6 +11,7 @@ import Button from "../../../common/Button/Button";
 function AppsCases() {
 
     var settings = {
+        arrows: false,
         dots: false,
         infinite: false,
         speed: 800,
@@ -32,6 +33,7 @@ function AppsCases() {
                 </div>
             </div>
             <div className={s.sliderContainer}>
+                <div className={s.camouflageBlock1}></div>
                 <Slider {...settings} className={s.slider}>
                     <div className={s.cardFirst}>
                         <SliderCard header={'ForPeeps'} text={'We\'ve partnered with ForPeeps to help them ' +
@@ -54,7 +56,7 @@ function AppsCases() {
                         'Sit vestibulum pellentesque condimentum nisl suspendisse porta. '} image={Beardstruggle}/>
                     </div>
                 </Slider>
-                {/*<div className={s.camouflageBlock2}></div>*/}
+                <div className={s.camouflageBlock2}></div>
             </div>
         </div>
     )

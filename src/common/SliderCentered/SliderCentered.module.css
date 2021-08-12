@@ -1,21 +1,14 @@
 .sliderContainer {
-    width: 100vw;
+    width: 1920px;
+    padding-top: 25px;
 }
 
-.cardFirst {
-
+:global(.slick-center) {
+    transition: all 0.5s ease-in-out;
 }
 
-.card {
-
-}
-
-.slick-slide.slick-center img {
-    transform: scale(1.1);
-}
-
-.slick-center  {
-    transform:scale(2);
-    margin-right:3%;
-    margin-left:3%;
+:global(.slick-slide:not(.slick-active)) {
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+    margin-top: 23px;
 }

@@ -10,8 +10,13 @@
 }
 
 .container:hover {
+    transition: all 0.4s ease;
     border: 1px solid transparent;
     box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 20px;
+}
+
+.circle {
+    transition: all 0.4s ease;
 }
 
 .container:hover .circle {

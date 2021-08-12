@@ -10,7 +10,7 @@
 }
 
 .slider {
-    width: 100vw;
+    width: 1810px;
     position: relative;
     left: -19px;
 }
@@ -29,11 +29,24 @@
     margin-left: 20px;
 }
 
-/*.camouflageBlock2 {*/
-/*    background: linear-gradient(to left, #DF263E, transparent 99%);*/
-/*    width: 180px;*/
-/*    height: 450px;*/
-/*}*/
+.camouflageBlock2 {
+    background: linear-gradient(to left, #FFFFFF, transparent 99%);
+    width: 180px;
+    height: 480px;
+    position: absolute;
+    margin-top: -472px;
+    margin-left: 1655px;
+}
+
+.camouflageBlock1 {
+    z-index: 2;
+    background: linear-gradient(to right, #FFFFFF, transparent 99%);
+    width: 25px;
+    height: 480px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -21px;
+}
 
 .optionsBlockContainer {
     width: 1663px;

@@ -8,7 +8,7 @@ import NavigationLink from "../../common/NavigationLink/NavigationLink";
 function Header() {
     return (
         <div className={s.container}>
-            <img className={s.logo} alt={"'Process' logo"} src={logo}/>
+            <img className={s.logo} alt={"'TheInforceProcess' logo"} src={logo}/>
             <div className={s.navigationWrapper}>
                 <div className={s.wrapper}>
                     <NavigationLink name={"Main"}/>

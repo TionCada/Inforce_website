@@ -44,6 +44,7 @@ p {
     color: #FFFFFF;
     height: fit-content;
     margin-top: 29px;
+    opacity: 0.75;
 }
 
 .imageContainer {
@@ -96,7 +97,6 @@ p {
 
 .buttonContainer {
     margin-top: 24px;
-    overflow-x: hidden;
 }
 
 .innerTextBlock {
