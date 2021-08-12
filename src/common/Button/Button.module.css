@@ -15,3 +15,12 @@
 .buttonWrapper {
     display: inline-block;
 }
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 6px 15px;
+    transition: all 0.3s ease;
+}

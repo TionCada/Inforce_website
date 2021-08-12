@@ -1,12 +1,12 @@
 import React from 'react';
-import './Process.module.css';
-import s from './Process.module.css'
+import './TheInforceProcess.module.css';
+import s from './TheInforceProcess.module.css'
 import devicesLogo from '../../../assets/images/devicesLogo.svg'
 import smileLogo from '../../../assets/images/smileLogo.svg'
 import OptionsBlock from "../../../common/OptionsBlock/OptionsBlock";
 import smallBackground from '../../../assets/images/smallBackground.svg'
 
-function Process() {
+function TheInforceProcess() {
     return (
         <div className={s.container}>
             <div className={s.firstBlock}>
@@ -84,4 +84,4 @@ function Process() {
     )
 }
 
-export default Process;
+export default TheInforceProcess;

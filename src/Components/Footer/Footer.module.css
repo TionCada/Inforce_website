@@ -1,0 +1,120 @@
+.container {
+    margin-top: 64px;
+    margin-left: -128px;
+    background-color: #DF263E;
+}
+
+.logo {
+    margin-top: 48px;
+}
+
+.email {
+    margin-top: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    line-height: 150%;
+}
+
+.phone {
+    margin-top: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    line-height: 150%;
+}
+
+.skypeIcon {
+    margin-top: 24px;
+}
+
+.facebookIcon {
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.linkedInIcon {
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.icon {
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.wrapper {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    width: 74px;
+}
+
+.wrapper:nth-child(2) {
+    margin-top: 32px;
+}
+
+.wrapper:nth-child(3) {
+    margin-top: 32px;
+}
+
+.wrapper:nth-child(4) {
+    margin-top: 32px;
+}
+
+.wrapper a {
+    margin-left: 0px;
+}
+
+.generalInfoWrapper {
+    margin-left: 128px;
+    display: inline-block;
+    width: 398px;
+}
+
+.navigationWrapper {
+    margin-left: 24px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 88.98px;
+    height: 180px;
+    width: 215px;
+}
+
+.copyrightInfoWrapper {
+    margin-left: 348px;
+    vertical-align: top;
+    margin-top: 64px;
+    width: 679px;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+
+.copyright {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.firstColumn {
+    display: inline-block;
+    width: 50%;
+}
+
+.secondColumn {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+}
+
+.secondColumn .wrapper {
+    float: right;
+}

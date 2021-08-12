@@ -5,19 +5,31 @@
     display: inline-block;
     border-radius: 8px;
     border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
 }
 
 .container:hover {
     transform: scaleY(1.17);
     border: 1px solid #16161626;
+    transition: all 0.2s ease-in-out;
+}
+
+.container .innerContainer {
+    transition: all 0.2s ease-in-out;
 }
 
 .container:hover .innerContainer {
-    transform: scaleY(0.855);
+    transform: scaleY(0.857);
+    transition: all 0.2s ease-in-out;
 }
 
 .container:hover .number {
     color: #DF263E;
+    transition: all 0.2s ease-in-out;
+}
+
+.container .number {
+    transition: all 0.2s ease-in-out;
 }
 
 .outerContainer {

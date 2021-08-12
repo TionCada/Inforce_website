@@ -15,7 +15,7 @@ function Services() {
             <div className={s.optionsBlock}>
                 <OptionsBlock subheader={'Services'}
                               header={'Strategy, Design, & App Development'}
-                              mainText={'Blog turns your business idea into a ' +
+                              mainText={'Inforce turns your business idea into a ' +
                               'launched product by guiding your journey & customizing ' +
                               'the development to meet your goals. Whether you require ' +
                               'a SaaS platform, social networking mobile application, an ' +
